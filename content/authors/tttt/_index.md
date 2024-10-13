@@ -15,6 +15,6 @@ education:
 email: ippqw5@163.com
 superuser: false
 user_groups:
-  - research
+  - Visitors
 ---
 tttttttttttttttttttttt

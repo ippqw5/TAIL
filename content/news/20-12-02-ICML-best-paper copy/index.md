@@ -1,9 +1,11 @@
 ---
-title: yyyyyyyyyyyy
-date: 2020-12-01
+title: dasdsa
+date: 2020-12-03
+image:
+  focal_point: 'top'
 ---
 
-Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
+Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
 
 <!--more-->
 
