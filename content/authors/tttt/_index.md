@@ -6,14 +6,15 @@ bio: tttttt
 social: []
 organizations:
   - name: ecnu
-    url: www.baidu.com
+    url: ""
 education:
   courses:
     - course: master
       year: 2009
       institution: ecnu
-email: eeeee
-superuser: true
-user_groups: []
+email: ippqw5@163.com
+superuser: false
+user_groups:
+  - research
 ---
 tttttttttttttttttttttt
