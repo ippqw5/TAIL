@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: minimal
   font: native
   font_size: L
 
@@ -36,21 +36,21 @@ header:
     enable: true
     align: r
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: false
 
 # Site footer
 
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+# footer:
+#   copyright:
+#     notice: '© {year} Me. This work is licensed under {license}'
+#     license:
+#       enable: true
+#       allow_derivatives: false
+#       share_alike: true
+#       allow_commercial: false
 
 # Localization
 
@@ -116,3 +116,18 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: apa
+
+# 删除或注释掉旧的Google Analytics配置
+# marketing:
+#   analytics:
+#     google_analytics: ''
+
+# # 添加新的Google Analytics配置
+# services:
+#   googleAnalytics:
+#     ID: ''  # 在这里填入您的Google Analytics ID
+
+icon:
+  pack:
+    ai: false
+  filename: logo_tail.png
