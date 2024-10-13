@@ -13,7 +13,6 @@ sections:
         label: Meet Us
         url: people
       text: |
-
         TAIL（Trustworthy AI Lab）是一个致力于可信人工智能研究的实验室，来自华东师范大学滴水湖国际软件工程学院。我们的目标是开发安全、可靠、透明的AI系统。
 
         我们的研究方向包括：
@@ -40,25 +39,7 @@ sections:
     design:
       view: citation
       columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: disei.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: right
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
 ---
+吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.

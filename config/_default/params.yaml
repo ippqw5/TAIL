@@ -117,17 +117,3 @@ publications:
   date_format: January 2006
   citation_style: apa
 
-# 删除或注释掉旧的Google Analytics配置
-# marketing:
-#   analytics:
-#     google_analytics: ''
-
-# # 添加新的Google Analytics配置
-# services:
-#   googleAnalytics:
-#     ID: ''  # 在这里填入您的Google Analytics ID
-
-icon:
-  pack:
-    ai: false
-  filename: logo_tail.png
