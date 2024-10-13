@@ -11,7 +11,7 @@ main:
     url: people
     weight: 20
   - name: News
-    url: news
+    url: post
     weight: 30
   - name: Events
     url: event
