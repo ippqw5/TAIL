@@ -6,7 +6,7 @@ bio: tttttt
 social: []
 organizations:
   - name: ecnu
-    url: xssxs
+    url: www.baidu.com
 education:
   courses:
     - course: master
