@@ -29,7 +29,7 @@ sections:
 
   - block: collection
     content:
-      title: 新闻
+      title: 最新动态
       subtitle:
       text:
       count: 5
