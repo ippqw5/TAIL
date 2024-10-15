@@ -11,7 +11,7 @@ baseURL: '/' # Website URL
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: true
+hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 

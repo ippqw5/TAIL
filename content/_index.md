@@ -10,15 +10,15 @@ sections:
       image:
         filename: logo_tail.png
       cta:
-        label: Meet Us
+        label: Meet Us  
         url: people
       text: |
-        TAIL（Trustworthy AI Lab）是一个致力于可信人工智能研究的实验室，来自华东师范大学滴水湖国际软件工程学院。我们的目标是开发安全、可靠、透明的AI系统。
+        TAIL (Trustworthy AI Lab) is a laboratory dedicated to trustworthy artificial intelligence research, affiliated with the School of Software Engineering at East China Normal University. Our goal is to develop safe, reliable, and transparent AI systems.
 
-        我们的研究方向包括：
-        - 神经网络鲁棒性
-        - 强化学习系统鲁棒性
-        - 大模型测试
+        Our research directions include:
+        - Neural network robustness
+        - Robustness of reinforcement learning systems
+        - Large model testing
 
     # design:
     #   # Choose an optional background color, gradient, image, or video
