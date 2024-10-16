@@ -76,11 +76,17 @@ collections:
               - {label: Institution, name: institution, widget: string, required: true}
               - {label: Year, name: year, widget: number, value_type: int, required: false}
       - {label: "Email", name: "email", widget: "string", required: false}
-      - label: "User groups(Faculty/PhD Students/Master Students/Undergraduate Students/Visiting Scholars)"
+      - label: "User groups (choose one or more)"
         name: "user_groups"
         required: false
-        widget: "list"
-        default: ["Faculty", "PhD Students", "Master Students", "Undergraduate Students", "Visiting Scholars"]
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Faculty", value: "Faculty" }
+          - { label: "PhD Students", value: "PhD Students" }
+          - { label: "Master Students", value: "Master Students" }
+          - { label: "Undergraduate Students", value: "Undergraduate Students" }
+          - { label: "Visiting Scholars", value: "Visiting Scholars" }
   - name: posts
     label: Posts/News
     label_singular: Post/News
