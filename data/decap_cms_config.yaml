@@ -22,8 +22,8 @@ collections:
         media_library:
           config:
             multiple: false
-      # - {label: "Short biography (shown in author boxes)", name: "bio", widget: "string", required: false}
-      - {label: "Introduction (support markdown/latex/html)", name: "body", widget: "markdown", required: false}
+      - {label: "Short Introduction (one sentence)", name: "bio", widget: "string", required: false}
+      - {label: "Full Introduction (support markdown/latex/html)", name: "body", widget: "markdown", required: false}
       - label: "Interests"
         name: "interests"
         required: false

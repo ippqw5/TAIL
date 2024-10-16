@@ -1,8 +1,8 @@
 ---
 title: "An example journal article"
 authors:
-- hinton
-- gauss
+- admin
+- 样例
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -62,7 +62,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 {{% callout note %}}
