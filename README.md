@@ -24,5 +24,6 @@
 2. 进入表单页面，选择`duplicate`复制一份后，开始修改表单内容
 ![cms_new_author](./assets/media/cms_new_author.png)
 
-3. 填写完成后，选择`Publish`发布即可
-![cms_new_author_publish](./assets/media/cms_new_author_publish.png)
+3. 填写完成后，选择`save`即可。系统会自动提交PR，等待管理员合并
+![cms_new_author_save](./assets/media/cms_new_author_save.png)
+![cms_new_author_saved](./assets/media/cms_new_author_saved.png)
