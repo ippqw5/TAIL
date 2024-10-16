@@ -18,14 +18,13 @@ collections:
       - label: "Avatar (upload an image named `avatar.jpg/png`)"
         name: "avatar_filename"
         widget: "image"
-        default: "avatar"
         required: false
         media_library:
           config:
             multiple: false
-      - {label: "Short biography (shown in author boxes)", name: "bio", widget: "string", required: false}
-      - {label: "Full biography (shown in About widget)", name: "body", widget: "markdown", required: false}
-      - label: "Interests (shown in About widget)"
+      # - {label: "Short biography (shown in author boxes)", name: "bio", widget: "string", required: false}
+      - {label: "Introduction (support markdown/latex/html)", name: "body", widget: "markdown", required: false}
+      - label: "Interests"
         name: "interests"
         required: false
         widget: "list"
@@ -56,7 +55,7 @@ collections:
                 widget: "boolean"
                 default: false
                 required: false
-      - label: "Organizations you belong to or are affiliated with (shown in About widget)"
+      - label: "Organizations"
         name: "organizations"
         required: false
         widget: list
@@ -76,18 +75,15 @@ collections:
               - {label: Course, name: course, widget: string, required: true}
               - {label: Institution, name: institution, widget: string, required: true}
               - {label: Year, name: year, widget: number, value_type: int, required: false}
-      - {label: "Email (to use a Gravatar.com avatar)", name: "email", widget: "string", required: false}
-      - label: "Super user (is this the primary site user?)"
-        name: "superuser"
-        widget: "boolean"
-        default: false
-      - label: "User groups (only for organization websites)"
+      - {label: "Email", name: "email", widget: "string", required: false}
+      - label: "User groups(Faculty/PhD Students/Master Students/Undergraduate Students/Visiting Scholars)"
         name: "user_groups"
         required: false
         widget: "list"
+        default: ["Faculty", "PhD Students", "Master Students", "Undergraduate Students", "Visiting Scholars"]
   - name: posts
-    label: Posts
-    label_singular: Post
+    label: Posts/News
+    label_singular: Post/News
     folder: 'content/post'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
@@ -376,51 +372,51 @@ collections:
       - { label: "Summary (shortened abstract)", name: "summary", widget: "text", required: false }
       - {label: "Details", name: "body", widget: "markdown", required: false}
       - { label: "Publish this page on", name: "date", widget: "datetime" }
-  - name: slides
-    label: Slides
-    label_singular: Slides
-    folder: 'content/slides'
-    path: '{{slug}}/index'
-    filter: {field: "cms_exclude"}
-    create: true  # Allow users to create new documents in this collection
-    fields:  # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slides (separate with `---`)", name: "body", widget: "markdown"}
-      - {label: "Publish on", name: "date", widget: "datetime"}
-      - {label: "Summary", name: "summary", widget: "text", required: false}
-      - label: "Draft"
-        name: "draft"
-        widget: "boolean"
-        default: false
-        required: false
-      - label: "Tags"
-        name: "tags"
-        required: false
-        widget: "list"
-      - label: "Slide options"
-        name: "slides"
-        required: false
-        widget: object
-        fields:
-          - { label: "Theme (see https://github.com/hakimel/reveal.js#theming)", name: theme, widget: string, required: false, default: black }
-      - label: "Featured Image"
-        name: "image"
-        required: false
-        widget: object
-        fields:
-          - label: "Upload an image named `featured.jpg/png`"
-            name: "filename"
-            widget: "image"
-            default: "featured"
-            required: false
-            media_library:
-              config:
-                multiple: false
-          - {label: Caption, name: caption, widget: string, required: false}
-          - {label: Description for screen readers, name: alt_text, widget: string, required: false}
-          - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
-          - {label: 'Thumbnail Only?', name: preview_only, widget: boolean, default: false, required: false}
-  - name: pages
+  # - name: slides
+  #   label: Slides
+  #   label_singular: Slides
+  #   folder: 'content/slides'
+  #   path: '{{slug}}/index'
+  #   filter: {field: "cms_exclude"}
+  #   create: true  # Allow users to create new documents in this collection
+  #   fields:  # The fields each document in this collection have
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Slides (separate with `---`)", name: "body", widget: "markdown"}
+  #     - {label: "Publish on", name: "date", widget: "datetime"}
+  #     - {label: "Summary", name: "summary", widget: "text", required: false}
+  #     - label: "Draft"
+  #       name: "draft"
+  #       widget: "boolean"
+  #       default: false
+  #       required: false
+  #     - label: "Tags"
+  #       name: "tags"
+  #       required: false
+  #       widget: "list"
+  #     - label: "Slide options"
+  #       name: "slides"
+  #       required: false
+  #       widget: object
+  #       fields:
+  #         - { label: "Theme (see https://github.com/hakimel/reveal.js#theming)", name: theme, widget: string, required: false, default: black }
+  #     - label: "Featured Image"
+  #       name: "image"
+  #       required: false
+  #       widget: object
+  #       fields:
+  #         - label: "Upload an image named `featured.jpg/png`"
+  #           name: "filename"
+  #           widget: "image"
+  #           default: "featured"
+  #           required: false
+  #           media_library:
+  #             config:
+  #               multiple: false
+  #         - {label: Caption, name: caption, widget: string, required: false}
+  #         - {label: Description for screen readers, name: alt_text, widget: string, required: false}
+  #         - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
+  #         - {label: 'Thumbnail Only?', name: preview_only, widget: boolean, default: false, required: false}
+  # - name: pages
     label: "Pages"
     files:
       - file: "content/privacy.md"
