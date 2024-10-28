@@ -8,7 +8,7 @@ collections:
   - name: authors
     label: 成员
     label_singular: 成员
-    folder: 'content/authors'
+    folder: 'content/en/authors'
     path: '{{slug}}/_index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -90,7 +90,7 @@ collections:
   - name: posts
     label: Posts/News
     label_singular: Post/News
-    folder: 'content/post'
+    folder: 'content/en/post'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -146,7 +146,7 @@ collections:
   - name: projects
     label: Projects
     label_singular: Project
-    folder: 'content/project'
+    folder: 'content/en/project'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -218,7 +218,7 @@ collections:
   - name: events
     label: Events
     label_singular: Event
-    folder: 'content/event'
+    folder: 'content/en/event'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -299,7 +299,7 @@ collections:
   - name: publications
     label: Publications
     label_singular: Publication
-    folder: 'content/publication'
+    folder: 'content/en/publication'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -381,7 +381,7 @@ collections:
   - name: slides
     label: Slides
     label_singular: Slides
-    folder: 'content/slides'
+    folder: 'content/en/slides'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
@@ -425,7 +425,7 @@ collections:
   - name: pages
     label: "Pages"
     files:
-      - file: "content/privacy.md"
+      - file: "content/en/privacy.md"
         label: "Privacy Policy"
         name: "privacy"
         fields:
