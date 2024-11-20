@@ -1,7 +1,6 @@
 ---
 title: 样例
 role: student
-avatar_filename: lena.png
 bio: 一句话介绍自己
 interests:
   - cg(用英文逗号分开)

@@ -16,7 +16,6 @@ collections:
       - {label: "Display name (such as your full name)", name: "title", widget: "string"}
       - {label: "Position or tagline (such as Professor of AI)", name: "role", widget: "string", required: false}
       - label: "Avatar (upload an image named `avatar.jpg/png`)"
-        name: "avatar_filename"
         widget: "image"
         required: false
         media_library:
