@@ -5,6 +5,8 @@ organizations:
 superuser: true
 title: admin
 role: Professor of Artificial Intelligence
+bio: My research interests include distributed robotics, mobile computing and
+  programmable matter.
 interests:
   - Artificial Intelligence
   - Computational Linguistics
@@ -22,12 +24,6 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen
-email: ""
-user_groups:
-  - Faculty
-  - PhD Students
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
 education:
   courses:
     - course: PhD in Artificial Intelligence
@@ -39,9 +35,15 @@ education:
     - course: BSc in Artificial Intelligence
       institution: Massachusetts Institute of Technology
       year: 2008
+user_groups:
+  - Faculty
+  - PhD Students
+_build:
+  list: always
 last_name: null
 highlight_name: false
 first_name: admin
+email: ""
 ---
 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
