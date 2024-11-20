@@ -15,7 +15,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
   tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin
   condimentum.
 authors:
-  - admin
+  - test
 url_dataset: "#"
 url_project: ""
 publication_short: ""
@@ -42,7 +42,6 @@ url_poster: "#"
 url_code: https://github.com/HugoBlox/hugo-blox-builder
 doi: ""
 ---
-
 {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}

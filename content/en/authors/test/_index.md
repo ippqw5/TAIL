@@ -2,6 +2,7 @@
 title: test
 role: student
 avatar: avatar.png
+superuser: true
 bio: biooooooooo
 interests:
   - cg(用英文逗号分开)
