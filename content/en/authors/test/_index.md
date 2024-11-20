@@ -8,6 +8,6 @@ interests:
   - c
 social: []
 _build:
-  list: never
+  list: always
 ---
 详细介绍，显示在个人主页
