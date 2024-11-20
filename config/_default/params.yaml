@@ -107,7 +107,7 @@ features:
 extensions:
   decap_cms:
     branch: main
-    # local_backend: true
+    local_backend: true
     publish_mode: editorial_workflow
   academicons:
     enable: true

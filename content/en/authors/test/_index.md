@@ -1,6 +1,7 @@
 ---
 title: 样例
 role: student
+avatar_filename: avatar.png
 bio: 一句话介绍自己
 interests:
   - cg(用英文逗号分开)
@@ -30,6 +31,9 @@ _build:
   list: always
 ---
 > 详细介绍，显示在个人主页
+
 # China!
+
 ## Hello
+
 ### Bye
