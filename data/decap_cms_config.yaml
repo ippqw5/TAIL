@@ -95,6 +95,7 @@ collections:
         - label: "显示在members页面?"
           name: "list"
           widget: "select"
+          default: "always"
           options:
             - {label: "Yes", value: "always"}
             - {label: "No", value: "never"}
