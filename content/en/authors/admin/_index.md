@@ -37,7 +37,6 @@ education:
       year: 2008
 user_groups:
   - Faculty
-  - PhD Students
 _build:
   list: always
 last_name: null
