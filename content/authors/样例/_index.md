@@ -1,5 +1,8 @@
----
-# `---`之间是用于指定模板参数，比如title，role等
+--- # `---`之间是用于指定模板参数，比如title，role等
+
+# 显示?
+_build:
+  list: always
 
 # Display name
 title: 样例
@@ -12,7 +15,7 @@ last_name:
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Student
 
 # Organizations/Affiliations
 organizations:
@@ -75,8 +78,6 @@ highlight_name: false
 # - Visiting Scholars
 user_groups:
   - PhD Students
-  - Master Students
-  - Visiting Scholars
 
 # `---`之后，开始写具体的内容，支持markdown语法、latex公式、html标签等
 ---

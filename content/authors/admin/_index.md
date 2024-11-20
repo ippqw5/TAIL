@@ -25,7 +25,6 @@ social:
 email: ""
 user_groups:
   - Faculty
-  - PhD Students
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 education:

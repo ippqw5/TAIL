@@ -87,6 +87,18 @@ collections:
           - { label: "Master Students", value: "Master Students" }
           - { label: "Undergraduate Students", value: "Undergraduate Students" }
           - { label: "Visiting Scholars", value: "Visiting Scholars" }
+      - label: "Show?"
+        name: "build_"
+        required: true
+        widget: "object"
+        fields: 
+        - name: "list"
+          widget: "select"
+          options:
+            - {label: "Yes", value: "always"}
+            - {label: "No", value: "never"}
+
+
   - name: posts
     label: Posts/News
     label_singular: Post/News
