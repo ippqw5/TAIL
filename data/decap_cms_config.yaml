@@ -87,12 +87,13 @@ collections:
           - { label: "Master Students", value: "Master Students" }
           - { label: "Undergraduate Students", value: "Undergraduate Students" }
           - { label: "Visiting Scholars", value: "Visiting Scholars" }
-      - label: "Show?"
+      - label: "Display"
         name: "build_"
         required: true
         widget: "object"
         fields: 
-        - name: "list"
+        - label: "显示在members页面?"
+          name: "list"
           widget: "select"
           options:
             - {label: "Yes", value: "always"}

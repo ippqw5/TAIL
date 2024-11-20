@@ -1,6 +1,8 @@
 ---
 # `---`之间是用于指定模板参数，比如title，role等
-
+_build:
+  list: never
+  
 # Display name
 title: 样例
 
