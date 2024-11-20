@@ -3,7 +3,7 @@ organizations:
   - name: Stanford University
     url: ""
 superuser: true
-title: admin
+title: 管理员
 role: Professor of Artificial Intelligence
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
