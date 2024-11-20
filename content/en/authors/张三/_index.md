@@ -1,0 +1,35 @@
+---
+title: 张三
+role: student
+bio: 一句话介绍自己
+interests:
+  - cg(用英文逗号分开)
+  - c
+social:
+  - display:
+      header: false
+    icon_pack: ai
+    link: https://scholar.google.com/
+    icon: google-scholar
+  - display:
+      header: false
+    link: https://github.com/
+    icon_pack: fab
+    icon: github
+organizations:
+  - name: East China Normal University
+education:
+  courses:
+    - course: Master in East China Normal University
+      institution: East China Normal University
+      year: 2023
+email: www.163.com
+user_groups:
+  - Master Students
+_build:
+  list: always
+---
+> 详细介绍，显示在个人主页
+# China!
+## Hello
+### Bye
