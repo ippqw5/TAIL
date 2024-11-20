@@ -44,7 +44,7 @@ collections:
               - {label: "Regular", value: "far"}
               - {label: "Brand", value: "fab"}
               - {label: "Academic", value: "ai"}
-          - {label: Icon (see https://hugoblox.com/docs/page-builder/#icons), name: icon, widget: string}
+          - {label: Icon (see https://docs.hugoblox.com/getting-started/page-builder/#icons), name: icon, widget: string}
           - {label: Label (tooltip), name: label, widget: string, required: false}
           - label: Display in About widget and...
             name: display
