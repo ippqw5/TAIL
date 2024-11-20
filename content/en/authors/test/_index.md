@@ -1,8 +1,8 @@
 ---
 title: 样例
 role: student
-avatar_filename: avatar.png
-bio: 一句话介绍自己
+avatar: avatar.png
+bio: one word
 interests:
   - cg(用英文逗号分开)
   - c
