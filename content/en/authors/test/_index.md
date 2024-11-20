@@ -1,5 +1,5 @@
 ---
-title: Test
+title: 样例
 role: student
 avatar_filename: lena.png
 bio: 一句话介绍自己
