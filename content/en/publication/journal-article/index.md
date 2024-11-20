@@ -2,7 +2,7 @@
 title: "An example journal article"
 authors:
 - admin
-- 样例
+- test
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -64,7 +64,6 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
 {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}

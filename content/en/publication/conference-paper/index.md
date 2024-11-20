@@ -15,8 +15,9 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
   tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin
   condimentum.
 authors:
-  - admin
   - test
+  - admin
+
 url_dataset: https://github.com/HugoBlox/hugo-blox-builder
 url_project: ""
 url_source: https://github.com/HugoBlox/hugo-blox-builder

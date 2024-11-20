@@ -1,8 +1,8 @@
 ---
-title: 样例
+title: test
 role: student
 avatar: avatar.png
-bio: one word
+bio: biooooooooo
 interests:
   - cg(用英文逗号分开)
   - c
@@ -29,6 +29,9 @@ user_groups:
   - Master Students
 _build:
   list: always
+last_name: null
+highlight_name: false
+first_name: admin
 ---
 > 详细介绍，显示在个人主页
 
