@@ -2,11 +2,12 @@
 
 - 网址1：[https://ippqw5.github.io/TAIL/](https://ippqw5.github.io/TAIL/)
 
-## 添加信息
+## 增删改查
 
 > 以添加 `个人主页 ` 为例
+
 1. [登录后台管理系统](https://ecnu-tail.netlify.app/admin/)，注册一个账号 或者 使用github登录。
-    ![1732107798699](./assets/media/login.png)
+   ![1732107798699](./assets/media/login.png)
 2. 选择 `样例`
    ![cms_admin](./assets/media/cms_admin.png)
 3. 进入表单页面，选择 `duplicate`复制一份后，开始修改表单内容

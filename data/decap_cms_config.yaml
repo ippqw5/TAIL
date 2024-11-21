@@ -6,8 +6,8 @@ media_folder: 'assets/media'
 public_folder: '/media'
 
 collections:
-  - name: authors
-    label: Members
+  - name: members # url: ../members
+    label: Members # displayed name in UI
     label_singular: Member
     folder: 'content/en/authors'
     path: '{{slug}}/_index'
@@ -34,7 +34,7 @@ collections:
         required: false
         widget: list
         fields:
-          - {label: Link, name: link, widget: string}
+          - {label: Link, name: link, widget: string, required: false}
           - label: Icon pack
             name: icon_pack
             widget: select
@@ -45,17 +45,17 @@ collections:
               - {label: "Regular", value: "far"}
               - {label: "Brand", value: "fab"}
               - {label: "Academic", value: "ai"}
-          - {label: Icon (see https://docs.hugoblox.com/getting-started/page-builder/#icons), name: icon, widget: string}
-          - {label: Label (tooltip), name: label, widget: string, required: false}
-          - label: Display in About widget and...
-            name: display
-            widget: object
-            fields:
-              - label: "Header (main menu)"
-                name: "header"
-                widget: "boolean"
-                default: false
-                required: false
+          - {label: Icon (see https://docs.hugoblox.com/getting-started/page-builder/#icons), name: icon, widget: string, required: false}
+          # - {label: Label (tooltip), name: label, widget: string, required: false}
+          # - label: Display in About widget and...
+          #   name: display
+          #   widget: object
+          #   fields:
+          #     - label: "Header (main menu)"
+          #       name: "header"
+          #       widget: "boolean"
+          #       default: false
+          #       required: false
       - label: "Organizations"
         name: "organizations"
         required: false
@@ -101,7 +101,7 @@ collections:
             - {label: "Yes", value: "always"}
             - {label: "No", value: "never"}
 
-  - name: posts
+  - name: news
     label: News
     label_singular: New
     folder: 'content/en/post'
@@ -244,7 +244,7 @@ collections:
     label: Publications
     label_singular: Publication
     folder: 'content/en/publication'
-    path: '{{slug}}/index'
+    path: '{{slug}}/index.txt'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
